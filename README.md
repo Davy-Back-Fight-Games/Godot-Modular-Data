@@ -7,6 +7,8 @@ Godot Modular Data is a small addon that provides Resource-based shared data pat
 - Runtime sets for transient lists of live scene nodes.
 - Scriptable enum resources for data-driven categories and identities.
 
+The design is inspired by Ryan Hipple's excellent Unite talk, [Game Architecture with Scriptable Objects](https://youtu.be/raQ3iHhE_Kk?si=UyB4W0lxhlAKDVjF&t=925), adapted from Unity ScriptableObjects to Godot Resources.
+
 ## Install
 
 Copy `addons/modular_data` into a Godot 4 project, then enable **Project > Project Settings > Plugins > Modular Data**.

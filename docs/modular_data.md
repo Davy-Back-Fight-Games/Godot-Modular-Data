@@ -1,6 +1,6 @@
 # Modular Data Core
 
-The modular data core is a Godot `Resource`-based shared data system inspired by Ryan Hipple's ScriptableObject modular data pattern. It lets scene scripts depend on exported data assets instead of hard-coded singleton lookups or scene-specific config nodes.
+The modular data core is a Godot `Resource`-based shared data system inspired by Ryan Hipple's ScriptableObject modular data pattern from [Game Architecture with Scriptable Objects](https://youtu.be/raQ3iHhE_Kk?si=UyB4W0lxhlAKDVjF&t=925). It adapts that idea from Unity ScriptableObjects to Godot Resources, letting scene scripts depend on exported data assets instead of hard-coded singleton lookups or scene-specific config nodes.
 
 Core scripts live in `res://addons/modular_data/runtime/`.
 
