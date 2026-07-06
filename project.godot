@@ -1,0 +1,19 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section]
+;   param=value
+
+config_version=5
+
+[application]
+
+config/name="Godot Modular Data"
+config/features=PackedStringArray("4.4")
+run/main_scene="res://examples/demo.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/modular_data/plugin.cfg")
